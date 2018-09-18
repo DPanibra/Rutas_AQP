@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rutas AQP</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" href="css/styleForm.css" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Baloo' rel='stylesheet'>
+	 <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            body{
+             
+                padding-top:0px;
+                background: url(images/wall.jpg) ;
+                background-repeat: no-repeat;
+                background-size:  auto;
+
+            }
+        </style>
+</head>
+<body>
+
+	<div id="form">
+
+		<h1 ><a class="ruta" href="index.html">RUTAS AQP</a> </h1>
+
+		<div class="facebook">
+		   <br><button class="face">Registrarte con Facebook</button>
+ 		</div>
+
+ 		<div class="datos">
+ 			<input type="text" name="usuario" placeholder="Nombre de Usuario"><br>
+ 			<input type="text" name="usuario" placeholder="Correo Electronico"><br>
+ 			<input type="password" name="password" placeholder="Contraseña"><br>
+ 			<input type="password" name="password" placeholder="Confirmar Contraseña"><br>
+ 		</div>
+ 		<div class="datos">
+ 			<label class="dato">Fecha de nacimiento</label>
+ 		</div>
+ 		<div class="datos">
+ 			<input type="number" class="fech" name="dia" min="1" max="31" placeholder="Día">
+ 			<select name="mes" placeholder="Mes">
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+            <option value="6">Junio</option>
+            <option value="7">Julio</option>
+            <option value="8">Agosto</option>
+            <option value="9">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+        </select>
+ 			<input type="number" class="fech" name="año" min="1900" max="2018" placeholder="Año">
+ 			
+ 		</div>
+ 		<div class="datos">
+ 			<label class="dato">Sexo</label><br>
+ 			<div class="datos">
+ 			<input type="radio" name="sexo" value="hombre" checked> <label class="dato">Masculino</label>
+  			<input type="radio" name="sexo" value="mujer"> <label class="dato">Femenino</label> <br>
+  			</div>
+ 		</div>
+
+ 		<div class="terminos">
+ 			<label>Al hacer clic en Registrarse, acepta los </label><a href="#"> Terminos y Condiciones de uso </a><label>de Rutas AQP</label>
+ 		</div>
+ 		<div >
+		   <button class="Registrarse">Registrarse</button>
+ 		</div>
+ 		<div class="clearfix">
+		<br><br>
+		<br><br>
+ 		</div>
+	</div>
+</body>
+</html>

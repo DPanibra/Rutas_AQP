@@ -1,0 +1,77 @@
+body {
+    margin:0px;
+}
+a.ruta{
+  color: black;
+  text-align: center;
+  font-family: "baloo";
+  font-size:50px
+   
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.95;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.topnav li a:hover:not(.active){
+    background-color: #111;
+    
+}
+
+ul.topnav li a.active {
+    background-color: #008477;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+h1{
+    font-family: 'Baloo';
+}
+
+button {
+    background-color: #9e52b7;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.index-text {
+  text-align: center;
+  font-family: "baloo";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: -500px;
+  transform: translate(-50%, -50%);
+  color: #0f3a66;
+}
